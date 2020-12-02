@@ -1,0 +1,26 @@
+{
+    "name": "iuriluis/notification",
+    "description": "Projeto teste - Curso Composer - UpInside",
+    "type": "library",
+    "license": "MIT",
+    "config": {
+        "vendor-dir": "external"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iuri Luis",
+            "email": "iuriferreiradelgado@gmail.com",
+            "homepage": "https://www.devupdate.com.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.2"
+    }
+}
